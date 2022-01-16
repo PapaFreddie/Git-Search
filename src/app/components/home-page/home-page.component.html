@@ -1,1 +1,31 @@
-<p>home-page works!</p>
+<div class="filter">
+    <mat-form-field>
+        <mat-label>Sort</mat-label>
+        <mat-select 
+            panelClass = "sort-select" 
+            [(ngModel)] = "sort">
+
+            <mat-option value = "name">Name</mat-option>
+            <mat-option value = "day">Day Created</mat-option>
+            <mat-option value = "updated">Day Updated</mat-option>
+            <mat-option value = "recent">Most Recent</mat-option>
+            <mat-option value = "metacritic">Metacritic</mat-option>
+
+
+
+        </mat-select>
+    </mat-form-field>
+</div>
+
+<div class="repos">
+    <div class="repo">
+        <div class="repo-thumb-container">
+            <img src="images/app screenshort.png" alt="thumbnail" class="repo-thumbnail">
+        </div>
+        <div class="repo-descript">
+            <p class="repo-name">Name</p>
+        </div>
+    </div>
+
+</div>
+
