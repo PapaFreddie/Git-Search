@@ -35,5 +35,69 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 20px auto; 
+}
+.repo{
+    width: 200px;
+    margin: 10px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgb(173, 115, 115);
+    box-shadow: rgb(57, 58, 56);
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: rgb(58, 82, 58);
+        transform: translate(-3px);
+
+    }
+    &-thumb-container{
+        background-color: rgb(18, 152, 156);
+        position: relative;
+        height: 100px;
+        color: white;
+        text-align: center;
+
+    }
+    &-thumbnail{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 100px;
+
+
+    }
+
+    &-descript{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 90px;
+
+         
+
+    }
+    
+    &-name{
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+    }
+    &-platforms{
+       display: flex; 
+    }
+    &-platform{
+        width: 20px;
+    }
+
 }
