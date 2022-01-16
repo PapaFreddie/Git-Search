@@ -27,7 +27,8 @@ import {MatSelectModule} from '@angular/material/select'
     MatTabsModule,
     MatIconModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    FormsModule
 
 
   ],
