@@ -13,13 +13,15 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
-import { HomePageComponent } from './components/home-page/home-page.component'
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { NotFoundComponent } from './components/not-found/not-found.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomePageComponent
+    HomePageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
